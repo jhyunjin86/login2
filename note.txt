@@ -1,0 +1,33 @@
+mkdir login-project
+cd login-project
+npm init -y
+
+npm install express mongoose bcrypt jsonwebtoken dotenv cookie-parser
+
+login-project
+│
+├── server.js
+├── .env
+│
+├── models
+│    └── User.js
+│
+└── routes
+     └── auth.js
+
+
+git사용법
+
+git init
+
+프로젝트에 .gitignore 파일만들어서 아래 내용추가
+node_modules
+.env
+
+git add .
+git commit -m "기록할만한 문구"
+
+레포이름이 만들어져있어야함
+git remote add origin https://github.com/니아이디/레포이름.git
+git branch -M main
+git push -u origin main
